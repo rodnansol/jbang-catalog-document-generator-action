@@ -9,7 +9,7 @@ branding:
 inputs:
   version:
     description: 'The version of JBang Catalog Document Generator to download and use.'
-    default: 'latest'
+    default: ${{ github.action_ref }}
     required: true
 
   arguments:
